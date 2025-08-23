@@ -22,7 +22,7 @@ add_executable(test_curl_resource  src/test_curl_resource.c)
 list(APPEND TEST_EXECUTABLES test_curl_resource)
 
 set_target_properties(test_curl_resource PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -63,7 +63,7 @@ add_executable(test_curl_resource_async  src/test_curl_resource_async.c)
 list(APPEND TEST_EXECUTABLES test_curl_resource_async)
 
 set_target_properties(test_curl_resource_async PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -104,7 +104,7 @@ add_executable(test_event_loop_cancel  src/test_event_loop_cancel.c)
 list(APPEND TEST_EXECUTABLES test_event_loop_cancel)
 
 set_target_properties(test_event_loop_cancel PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -145,7 +145,7 @@ add_executable(test_event_loop_priority  src/test_event_loop_priority.c)
 list(APPEND TEST_EXECUTABLES test_event_loop_priority)
 
 set_target_properties(test_event_loop_priority PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -186,7 +186,7 @@ add_executable(test_rate_manager  src/test_rate_manager.c)
 list(APPEND TEST_EXECUTABLES test_rate_manager)
 
 set_target_properties(test_rate_manager PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -227,7 +227,7 @@ add_executable(test_rate_manager_hp_429  src/test_rate_manager_hp_429.c)
 list(APPEND TEST_EXECUTABLES test_rate_manager_hp_429)
 
 set_target_properties(test_rate_manager_hp_429 PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -268,7 +268,7 @@ add_executable(test_request_headers  src/test_request_headers.c)
 list(APPEND TEST_EXECUTABLES test_request_headers)
 
 set_target_properties(test_request_headers PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -309,7 +309,7 @@ add_executable(test_request_json  src/test_request_json.c)
 list(APPEND TEST_EXECUTABLES test_request_json)
 
 set_target_properties(test_request_json PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -350,7 +350,7 @@ add_executable(test_sinks  src/test_sinks.c)
 list(APPEND TEST_EXECUTABLES test_sinks)
 
 set_target_properties(test_sinks PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
@@ -391,7 +391,7 @@ add_executable(test_worker_pool  src/test_worker_pool.c)
 list(APPEND TEST_EXECUTABLES test_worker_pool)
 
 set_target_properties(test_worker_pool PROPERTIES
-  C_STANDARD 17
+  C_STANDARD 23
   C_STANDARD_REQUIRED YES
 )
 if("CXX" IN_LIST CMAKE_PROJECT_LANGUAGES)
